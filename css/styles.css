@@ -1,0 +1,120 @@
+ main {
+
+    background: linear-gradient(
+  to bottom,
+  #000,
+  #000 ,
+  #fff 1%,
+  #000
+);
+    
+}
+
+.background-pattern {
+    text-align: center;
+}
+
+/* Color Theme Swatches in Hex */
+.monocromatich-1-hex { color: #2F4575; }
+.monocromatich-2-hex { color: #ADC5F7; }
+.monocromatich-3-hex { color: #6290F5; }
+.monocromatich-4-hex { color: #525D75; }
+.monocromatich-5-hex { color: #4E72C2; }
+
+/* Color Theme Swatches in RGBA */
+.monocromatich-1-rgba { color: rgba(47, 69, 117, 1); }
+.monocromatich-2-rgba { color: rgba(173, 197, 247, 1); }
+.monocromatich-3-rgba { color: rgba(98, 144, 245, 1); }
+.monocromatich-4-rgba { color: rgba(82, 93, 117, 1); }
+.monocromatich-5-rgba { color: rgba(78, 114, 194, 1); }
+
+/* Color Theme Swatches in HSLA */
+.monocromatich-1-hsla { color: hsla(221, 42, 32, 1); }
+.monocromatich-2-hsla { color: hsla(220, 82, 82, 1); }
+.monocromatich-3-hsla { color: hsla(221, 88, 67, 1); }
+.monocromatich-4-hsla { color: hsla(221, 17, 39, 1); }
+.monocromatich-5-hsla { color: hsla(221, 48, 53, 1); }
+
+body {
+    margin: 0px;
+    min-height: 100vh;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+}
+
+ .background-image {
+    background-image: url(../img/design\ ma1.jpg);
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    min-height: 90vh;
+    padding-bottom: 50px;
+
+}
+
+.produkt-bilder {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    max-width: 1000px;
+    margin: 20px auto;
+}
+
+.produkt-bilde {
+  width: 80%;
+  margin: 0px;
+  border-radius: 10px;
+
+}
+
+header nav a {
+    font-size: 20px;
+    color: #F57A91;
+    text-decoration: none;
+}
+ 
+
+h1 {
+    color:#F5EF72;
+    font-size: 50px;
+}
+
+h2 {
+    color: #F5EF72;
+    font-size: 30px;
+}
+
+.cta_button {
+    margin-top: 10px;
+    color: #F57A91;
+    background-color:#3286A8;
+    padding: 15px 25px;
+    border-radius: 10px;
+    border: solid 2px #F57A91;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+footer {
+    background-color: #2F4575;
+}
+
+p {
+    max-width: 500px;
+    margin: 0px auto;
+    margin-bottom: 20px;
+    color: #F5EF72;
+}
+
+.shop {
+    padding: 20px;
+}
+
+
+
+
+
