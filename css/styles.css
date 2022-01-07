@@ -1,41 +1,43 @@
- main {
+/* Color Theme Swatches in Hex */
+.triadic-1-hex { color: #3286A8; }
+.triadic-2-hex { color: #F57A91; }
+.triadic-3-hex { color: #62CAF5; }
+.triadic-4-hex { color: #F5EF72; }
+.triadic-5-hex { color: #A8A33B; }
 
-    background: linear-gradient(
-  to bottom,
-  #000,
-  #000 ,
-  #fff 1%,
-  #000
-);
-    
+
+/*header*/
+
+header {
+    text-align: center;
 }
+
+header nav a {
+    float: left;
+    font-size: 20px;
+    color: #3286A8;
+    text-decoration: none;
+    padding: 10px;
+}
+
+ul {
+    list-style-type: none;
+
+}
+
+
+
+
+
+
 
 .background-pattern {
     text-align: center;
 }
 
-/* Color Theme Swatches in Hex */
-.monocromatich-1-hex { color: #2F4575; }
-.monocromatich-2-hex { color: #ADC5F7; }
-.monocromatich-3-hex { color: #6290F5; }
-.monocromatich-4-hex { color: #525D75; }
-.monocromatich-5-hex { color: #4E72C2; }
-
-/* Color Theme Swatches in RGBA */
-.monocromatich-1-rgba { color: rgba(47, 69, 117, 1); }
-.monocromatich-2-rgba { color: rgba(173, 197, 247, 1); }
-.monocromatich-3-rgba { color: rgba(98, 144, 245, 1); }
-.monocromatich-4-rgba { color: rgba(82, 93, 117, 1); }
-.monocromatich-5-rgba { color: rgba(78, 114, 194, 1); }
-
-/* Color Theme Swatches in HSLA */
-.monocromatich-1-hsla { color: hsla(221, 42, 32, 1); }
-.monocromatich-2-hsla { color: hsla(220, 82, 82, 1); }
-.monocromatich-3-hsla { color: hsla(221, 88, 67, 1); }
-.monocromatich-4-hsla { color: hsla(221, 17, 39, 1); }
-.monocromatich-5-hsla { color: hsla(221, 48, 53, 1); }
 
 body {
+    font-family: "roboto" , sans serif;
     margin: 0px;
     min-height: 100vh;
     display: grid;
@@ -43,8 +45,8 @@ body {
 }
 
  .background-image {
-    background-image: url(../img/bakgrunn.jpg);
-    background-position: bottom;
+    background-image: url(../img/senga.jpg);
+    background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
     text-align: center;
@@ -52,6 +54,15 @@ body {
     padding-bottom: 50px;
 
 }
+
+.logo {
+    max-width: 100px;
+    max-height: 100px;
+    padding: 10px;
+    float: left;
+}
+
+
 
 .produkt-bilder {
     display: grid;
@@ -62,37 +73,42 @@ body {
 }
 
 .produkt-bilde {
-  width: 80%;
-  margin: 0px;
-  border-radius: 10px;
-
+  width: 60%;
+  margin: 20px;
 }
 
-header nav a {
-    font-size: 20px;
-    color: #F57A91;
-    text-decoration: none;
-}
+
  
 
 h1 {
-    color:#F5EF72;
-    font-size: 50px;
+    color: #3286A8;
+    font-size: 60px;
+    margin-top: 50px;
 }
 
 h2 {
-    color: #F5EF72;
+    color: #62CAF5;
+    font-size: 40px;
+}
+
+h3 {
+    color: #3286A8;
     font-size: 30px;
 }
 
 .cta_button {
     margin-top: 10px;
-    color: #F57A91;
-    background-color:#3286A8;
-    padding: 15px 25px;
-    border-radius: 10px;
-    border: solid 2px #F57A91;
+    color: #3286A8;
+    padding: 15px 30px;
+    border: solid 2px #3286A8;
+}
 
+.cta_button:hover {
+    color: #F57A91;
+    border: solid 2px #F57A91;
+    background-color: #3286A8;
+    padding: 20px 35px;
+    transition: 0.5s;
 }
 
 a {
@@ -103,17 +119,32 @@ footer {
     background-color: #2F4575;
 }
 
+footer p {
+    color: white;
+    float: right;
+    padding: 10px;
+}
+
 p {
     max-width: 500px;
     margin: 0px auto;
-    margin-bottom: 20px;
-    color: #F5EF72;
+    margin-bottom: 30px;
+    color: white;
 }
 
-.shop {
+.welcome {
+    text-align: center;
     padding: 20px;
 }
 
+
+.background-pattern {
+    background-image: url(../img/texture.jpg);
+    background-position: bottom;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+}
 
 
 
