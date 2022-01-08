@@ -1,9 +1,10 @@
 /* Color Theme Swatches in Hex */
-.triadic-1-hex { color: #3286A8; }
-.triadic-2-hex { color: #F57A91; }
-.triadic-3-hex { color: #62CAF5; }
-.triadic-4-hex { color: #F5EF72; }
-.triadic-5-hex { color: #A8A33B; }
+.monocromatich-1-hex { color: #2F4575; }
+.monocromatich-2-hex { color: #ADC5F7; }
+.monocromatich-3-hex { color: #6290F5; }
+.monocromatich-4-hex { color: #525D75; }
+.monocromatich-5-hex { color: #4E72C2; }
+
 
 
 /*header*/
@@ -15,7 +16,7 @@ header {
 header nav a {
     float: left;
     font-size: 20px;
-    color: #3286A8;
+    color: #2F4575;
     text-decoration: none;
     padding: 10px;
 }
@@ -25,10 +26,9 @@ ul {
 
 }
 
-
-
-
-
+header nav a:hover {
+    color:#6290F5;
+}
 
 
 .background-pattern {
@@ -81,32 +81,33 @@ body {
  
 
 h1 {
-    color: #3286A8;
+    color: #2F4575;
     font-size: 60px;
     margin-top: 50px;
 }
 
 h2 {
-    color: #62CAF5;
+    color: #4E72C2;
     font-size: 40px;
 }
 
 h3 {
-    color: #3286A8;
+    color: #2F4575;
     font-size: 30px;
 }
 
 .cta_button {
     margin-top: 10px;
-    color: #3286A8;
-    padding: 15px 30px;
-    border: solid 2px #3286A8;
+    color: #fff;
+    border: solid 2px #fff;
+    background-color: #6290F5; 
+    padding: 15px 25px;
 }
 
 .cta_button:hover {
-    color: #F57A91;
-    border: solid 2px #F57A91;
-    background-color: #3286A8;
+    color: #fff;
+    border: solid 2px #fff;
+    background-color: #6290F5;
     padding: 20px 35px;
     transition: 0.5s;
 }
