@@ -202,6 +202,31 @@ li {
 
 
 
+@media (max-width:1000px) {
+    .products {
+        display:grid;
+        grid-template-columns: 1fr;
+        max-width: 1000px;
+        margin: 20px auto;
+    }
+    
+    .produkt-bilde {
+        width: 50%;
+        border-radius: 10px;
+        margin: 2px;
+        filter: drop-shadow(21px 11px 17px rgb(0,0,0));
+      }
 
+      .product-info {
+        padding: 10px;
+        border-radius:10px;
+    }
+
+    li {
+        float: left;
+    }
+
+    
+}
 
 
