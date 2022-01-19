@@ -1,3 +1,11 @@
+/* Fonts */
+
+
+
+
+
+
+
 /* Color Theme Swatches in Hex */
 .monocromatich-1-hex { color: #2F4575; }
 .monocromatich-2-hex { color: #ADC5F7; }
@@ -5,6 +13,27 @@
 .monocromatich-4-hex { color: #525D75; }
 .monocromatich-5-hex { color: #4E72C2; }
 
+
+/* Color Theme Swatches in Hex */
+.Two-jellyfish-on-a-blue-background-1-hex { color: #0424D9; }
+.Two-jellyfish-on-a-blue-background-2-hex { color: #031CA6; }
+.Two-jellyfish-on-a-blue-background-3-hex { color: #03178C; }
+.Two-jellyfish-on-a-blue-background-4-hex { color: #020F59; }
+.Two-jellyfish-on-a-blue-background-5-hex { color: #3DADF2; }
+
+/* Color Theme Swatches in RGBA */
+.Two-jellyfish-on-a-blue-background-1-rgba { color: rgba(4, 36, 217, 1); }
+.Two-jellyfish-on-a-blue-background-2-rgba { color: rgba(3, 28, 166, 1); }
+.Two-jellyfish-on-a-blue-background-3-rgba { color: rgba(3, 23, 140, 1); }
+.Two-jellyfish-on-a-blue-background-4-rgba { color: rgba(2, 15, 89, 1); }
+.Two-jellyfish-on-a-blue-background-5-rgba { color: rgba(61, 173, 242, 1); }
+
+/* Color Theme Swatches in HSLA */
+.Two-jellyfish-on-a-blue-background-1-hsla { color: hsla(230, 96, 43, 1); }
+.Two-jellyfish-on-a-blue-background-2-hsla { color: hsla(230, 96, 33, 1); }
+.Two-jellyfish-on-a-blue-background-3-hsla { color: hsla(231, 95, 28, 1); }
+.Two-jellyfish-on-a-blue-background-4-hsla { color: hsla(231, 95, 17, 1); }
+.Two-jellyfish-on-a-blue-background-5-hsla { color: hsla(202, 87, 59, 1); }
 
 
 /*header*/
@@ -55,12 +84,6 @@ body {
     filter: drop-shadow(21px 11px 17px rgb(0,0,0));
 }
 
-.background-text {
-    max-width: 500px;
-    margin: 0px auto;
-    margin-bottom: 30px;
-    color: white;
-}
 
 .logo {
     padding: 10px;
@@ -111,40 +134,38 @@ body {
 }
 
 
-
-
-
-
- 
-
 h1 {
-    color: #2F4575;
+    font-family: 'Lato', sans-serif;
+    color: #031CA6;
     font-size: 60px;
     margin-top: 120px;
 }
 
 h2 {
-    color: #4E72C2;
+    font-family: 'Oswald', sans-serif;
+    color: #0424D9;
     font-size: 40px;
 }
 
 h3 {
-    color: #2F4575;
+    font-family: 'Oswald', sans-serif;
+    color: #031CA6;
     font-size: 30px;
 }
 
 .cta_button {
+    font-family: 'Lato', sans-serif;
     margin-top: 10px;
     color: #fff;
     border: solid 2px #fff;
-    background-color: #6290F5; 
+    background-color: #031CA6; 
     padding: 15px 25px;
 }
 
 .cta_button:hover {
     color: #fff;
     border: solid 2px #fff;
-    background-color: #6290F5;
+    background-color: #0424D9;
     padding: 20px 35px;
     transition: 0.5s;
 }
@@ -154,17 +175,19 @@ a {
 }
 
 footer {
-    background-color: #2F4575;
+    background-color: #031CA6;
 }
 
 footer p {
+    font-family: 'Roboto', sans-serif;
     color: white;
     float: right;
     padding: 10px;
 }
 
 p {
-   color: #4E72C2;
+   font-family: 'Roboto', sans-serif;
+   color: #2F4575;
 }
 
 
@@ -192,11 +215,30 @@ p {
 
 
 .price {
-    color: #6290F5;
+    font-family: 'Roboto', sans-serif;
+    color: #0424D9;
 }
 
 li {
     float: right;
+}
+
+
+.cta_shop {
+    display: inline-block;
+        font-family: 'Lato', sans-serif;
+        color: #fff;
+        background-color: #031CA6; 
+        padding: 10px 20px;
+       
+    }
+
+.cta_shop:hover {
+    transition: 0.5s;
+    color: #fff;
+    background-color: #0424D9; 
+    padding: 15px 25px;
+
 }
 
 
