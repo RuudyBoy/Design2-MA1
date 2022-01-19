@@ -74,14 +74,13 @@ body {
 }
 
  .background-image {
-    background-image: url(../img/senga.jpg);
+    background-image: url(../img/mørksofas.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
     text-align: center;
     min-height: 80vh;
     padding-bottom: 50px;
-    filter: drop-shadow(21px 11px 17px rgb(0,0,0));
 }
 
 
@@ -130,7 +129,6 @@ body {
     padding-bottom: 50px;
     filter:contrast(1.1);
     filter: hue-rotate(5);
-    filter: drop-shadow(21px 11px 17px rgb(0,0,0));
 }
 
 
